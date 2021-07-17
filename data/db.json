@@ -1,0 +1,19 @@
+{
+  "artigos": [
+    {
+      "titulo": "Titulo 1",
+      "corpo": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius asperiores sunt suscipit porro! Aspernatur possimus doloribus quos temporibus, mollitia, molestias provident porro voluptate harum dolor quas nam. Cumque, quae aspernatur.",
+      "id": 1
+    },
+    {
+      "titulo": "Titulo 2",
+      "corpo": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius asperiores sunt suscipit porro! Aspernatur possimus doloribus quos temporibus, mollitia, molestias provident porro voluptate harum dolor quas nam. Cumque, quae aspernatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius asperiores sunt suscipit porro! Aspernatur possimus doloribus quos temporibus, mollitia, molestias provident porro voluptate harum dolor quas nam. Cumque, quae aspernatur.",
+      "id": 2
+    },
+    {
+      "titulo": "um novo titulo",
+      "corpo": "aqui vai uma nota",
+      "id": 3
+    }
+  ]
+}
