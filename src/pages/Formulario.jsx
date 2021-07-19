@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 import styled from "styled-components";
 import {
   fonteAmarela,
@@ -84,6 +85,8 @@ export default function Formulario() {
   const [titulo, setTitulo] = useState("");
   const [corpo, setCorpo] = useState("");
 
+  const history = useHistory()
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -92,6 +95,8 @@ export default function Formulario() {
       headers: {"Content-type": "application/json"},
       body: JSON.stringify({ titulo, corpo })
     })
+
+    history.push("/")
 
   };
 

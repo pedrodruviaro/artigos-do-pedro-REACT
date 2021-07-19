@@ -41,7 +41,7 @@ export default function Navbar() {
             <IconeWrap style={{color: fonteAmarela}}>
                 <ImRss />
             </IconeWrap>
-            <CabecalhoTitulo>Artigos do Pedro</CabecalhoTitulo>
+            <CabecalhoTitulo></CabecalhoTitulo>
         </Cabecalho>
     )
 }
